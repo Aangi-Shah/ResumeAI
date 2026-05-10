@@ -9,8 +9,8 @@ The project includes:
 ---
 
 # Live Demo
-**Frontend (Vercel):** https://resumeai.vercel.app/
-**Backend (Render):** 
+**Frontend (Vercel):** https://resume-ai-ft.vercel.app/login
+**Backend (Vercel):** https://resume-ai-flame-sigma.vercel.app
 
 ---
 
