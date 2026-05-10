@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --navy-900: #0a192f;
+  --navy-800: #112240;
+  --navy-700: #1d2d50;
+}
+
+body {
+  background-color: var(--navy-900);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+.glass-card {
+  background-color: rgba(17, 34, 64, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-all disabled:opacity-50;
+}
+
+.input-field {
+  background-color: var(--navy-700);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100%;
+  color: white;
+}
+
+.input-field:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(59 130 246);
+}
